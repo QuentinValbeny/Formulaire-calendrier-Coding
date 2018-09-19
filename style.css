@@ -1,0 +1,99 @@
+html
+{
+height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  footer {position: absolute; bottom: 0;left: 0; right: 0}
+
+
+  
+.formulaire
+{
+    border-style: solid;
+    border-color: rgb(199, 44, 44);
+    border-width: 1px;
+    width: 20%;
+    padding: 10px;
+}
+
+
+.main {
+    background-image: url("imgformulair.jpg");
+    background-repeat: no-repeat;
+    /**background-size: 100%;**/
+    background-position: right top;
+    
+}
+
+footer
+{
+    background-color: rgb(160, 60, 60);
+}
+
+
+.footer 
+{
+    border-color: #cc2030;
+    border-width: 1px;
+    margin-bottom: 10px;
+    text-align: center; 
+    margin-top: 10px;
+}
+
+h2{
+    color: aliceblue;
+   
+}
+
+.contact a 
+{
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.cadre
+{
+    margin-left: 10px;
+}
+
+/**datepicker**/
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+    padding: 1px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+    
+}
+
+input {
+    margin: .4rem;
+    
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 10px;
+    padding: 1px;
+}
+
+fieldset {
+    border-width: inherit;
+}
+
+.heure {
+    
+    margin-left: 20px;
+}

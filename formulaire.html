@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calendrier CodingFactory</title>
+    <link href="./style.css" rel="stylesheet">
+    </link>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div>
+                <!--Haut de page avec logo coding + menu-->
+                <img src="logocodingfactory-grd.png" width="20%" />
+                <!--Logo coding-->
+            </div>
+        </header>
+
+
+        <div class="cadre">
+            <h1>Agenda</h1>
+
+            <form method="POST">
+                <div class="formulaire">
+                    <form>
+                        <i class="fas fa-address-book" style="color:brown"></i>
+                        <!--Changer la couleur des icones-->
+                        Titre:<br>
+                        <input type="text" name="title">
+                        <!--Zone de texte-->
+
+
+                        Type:
+                        <select name="type">
+                            <option value="Personnel">Personnel</option>
+                            <option value="Travaille">Travaille</option>
+                            <option value="Medical">Medical</option>
+                            <option value="Vide"></option>
+                        </select>
+                        <br><br>
+                        <i class="fas fa-map-marked-alt" style="color:brown"></i>
+
+                        Lieux:<br>
+                        <input type="text" name="lieux">
+                        <br><br>
+
+                        <i class="fas fa-clock" style="color:brown"></i>
+
+                        Debut:<br>
+                        <fieldset>
+                            <div>
+                                <input type="date" id="start" name="trip" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <div class="heure">
+                        <select name="type">
+                            <option value="00">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>h
+
+                        <select name="type">
+                            <option value="00">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+
+                    <br><br>
+                    <i class="fas fa-clock" style="color:brown"></i> Fin:<br>
+                    <fieldset>
+                        <div>
+                            <input type="date" id="end" name="trip" value="2018-07-29" min="2018-01-01" max="2018-12-31" />
+                        </div>
+
+                    </fieldset>
+
+                    <div class="heure">
+                        <select name="type">
+                            <option value="00">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>h
+
+                        <select name="type">
+                            <option value="00">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+
+                    <br><br>
+                    <i class="fas fa-clipboard" style="color:brown"></i> Note:<br>
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <!--Zone de texte pour les commentaires-->
+                    <br>
+                    <input type="submit" Valider>
+                    <!--Bouton de fin-->
+
+            </form>
+        </div>
+
+
+
+    </div>
+    </div>
+</body>
+
+<footer>
+    <div class="footer">
+        <h2>CodingFactory:</h2>
+        <div class="contact">
+            <div>
+                <a class="menub" href="https://codingfactory.fr/contact/">Contact |
+                    <!--cmd+maj+l--></a>
+                <a href="http://codingfactory.fr/plan-du-site/">Plan du site |</a>
+                <a href="  https://codingfactory.fr/mentions-legales/">Mentions legales </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
